@@ -1,0 +1,96 @@
+
+/* 
+    Created on : Oct 1, 2022, 4:09:24 PM
+    Author     : camisalazar
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+*{
+  background-color: beige;
+}
+
+.logo{
+	
+	border-radius: 20px;
+	height: 150px;
+	width: 200px;
+	margin-bottom: 100px;
+	float: right;
+
+}
+
+#nav{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 5px;
+	display: block;
+}
+
+
+#nav > li{
+	list-style-type:none;
+	float: left;
+	display: block;
+	margin: 0px 5px;
+	position: relative;
+	width: 140px;
+}
+
+#nav li ul{
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	width: 160px;
+}
+
+#nav > li > ul{
+	margin-top: 5px;
+}
+
+#nav span{
+	cursor: pointer;
+	font-weight: bold;
+	display: block;
+	background-color: #62DCB9;
+	width: 140px;
+	padding: 10PX;
+}
+
+p{
+	text-align: center;
+    text-justify: inter-cluster;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1{
+	padding: 100px;
+	text-align: center;
+        font-family: 'Chango', cursive;
+}
+
+.img1{
+        border-radius: 20px;
+	height: 150px;
+	width: 200px;
+	margin-bottom: 100px;
+	float: left;
+}
+
+.img2{
+	border-radius: 20px;
+	height: 150px;
+	width: 200px;
+	margin-bottom: 100px;
+	float: right;
+}
+
+.img3{
+	border-radius: 20px;
+	height: 150px;
+	width: 200px;
+	margin-bottom: 100px;
+	display: block;
+	margin: 0 auto;
+}
