@@ -1,0 +1,132 @@
+
+/* 
+    Created on : 2 oct. 2022, 18:57:41
+    Author     : rsdro
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+*{
+  background-color: #E59866;
+}
+
+.logo{
+	
+	border-radius: 20px;
+	height: 150px;
+	width: 200px;
+	margin-bottom: 100px;
+	float: right;
+}
+
+#nav{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 5px;
+	display: block;
+}
+
+
+#nav > li{
+	list-style-type:none;
+	float: left;
+	display: block;
+	margin: 0px 5px;
+	position: relative;
+	width: 140px;
+}
+
+#nav li ul{
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	width: 160px;
+}
+
+#nav > li > ul{
+	margin-top: 5px;
+}
+
+#nav span{
+	cursor: pointer;
+	font-weight: bold;
+	display: block;
+	background-color: #E6B0AA;
+	width: 140px;
+	padding: 10PX;
+}
+
+h1 {
+	padding: 100px;
+	text-align: center;
+        font-family: 'Arial', bold;
+}
+
+h2 {
+    text-align:left;
+    font-family: 'Arial', cursive;
+}
+
+p{
+    text-align: left;
+    text-justify: inter-cluster;
+    font-family: 'Mukta', sans-serif;
+}
+div{
+  border: 3px solid #2C3E50;
+  padding: 5px;
+}
+
+.FirstNoticia::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.SecondNoticia::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.ThirdNoticia::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.FourNoticia::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img1{
+	height: 200px;
+	width: 400px;
+	margin-bottom: 0px auto;
+	float:right;
+}
+
+.img2{
+	height: 200px;
+	width: 400px;
+	margin-bottom: 0px auto;
+	float:left;
+}
+
+.img3{
+	height: 200px;
+	width: 400px;
+	margin-bottom: 0px auto;
+	float:right;
+}
+
+.img4{
+	height: 200px;
+	width: 400px;
+	margin-bottom: 0px auto;
+	float:left;
+}
+
+
