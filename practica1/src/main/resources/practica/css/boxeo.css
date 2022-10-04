@@ -1,11 +1,14 @@
+
 /* 
-    Created on : Oct 2, 2022, 8:11:12 PM
-    Author     : kendalldiazesquivel
+    Created on : Oct 3, 2022, 6:14:09 PM
+    Author     : camisalazar
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
 *{
-  background-color: #F5B7B1;
+  background-color: beige;
 }
 
 .logo{
@@ -50,7 +53,7 @@
 	cursor: pointer;
 	font-weight: bold;
 	display: block;
-	background-color: #ABB2B9;
+	background-color: #62DCB9;
 	width: 140px;
 	padding: 10PX;
 }
@@ -58,12 +61,12 @@
 h1 {
 	padding: 100px;
 	text-align: center;
-        font-family: 'Arial', bold;
+        font-family: 'Chango', cursive;
 }
 
 h2 {
     text-align:left;
-    font-family: 'Arial', cursive;
+    font-family: 'Chango', cursive;
 }
 
 p{
@@ -72,23 +75,23 @@ p{
     font-family: 'Mukta', sans-serif;
 }
 div{
-  border: 3px solid #ABB2B9;
+  border: 3px solid #62DCB9;
   padding: 5px;
 }
 
-.noticiabarcelona::after {
+.noticia1::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.noticiarealmadrid::after {
+.noticia2::after {
   content: "";
   clear: both;
   display: table;
 }
 
-.noticiasaprissa::after {
+.noticia3::after {
   content: "";
   clear: both;
   display: table;
@@ -114,4 +117,3 @@ div{
 	margin-bottom: 100px;
 	float:right;
 }
-
